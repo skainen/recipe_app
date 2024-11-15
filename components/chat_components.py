@@ -57,7 +57,7 @@ def create_chat_components(page, chat_state):
 
     def update_recipe_display():
         recipe_display.controls.clear()
-        if chat_state.current_recipe:
+        if chat_state.current_recipe: # This is a comment!
             recipe_display.controls.extend([
                 ft.Container(
                     content=ft.Column([
