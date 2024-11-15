@@ -13,7 +13,7 @@ def history_view(page, nav_state):
                             ft.Text("History", style=ft.TextThemeStyle.HEADLINE_MEDIUM),
                             ft.Text("Your recent recipes will appear here"),
                         ]),
-                        padding=20,
+                        padding=40,
                         expand=True,
                     ),
                 ],
