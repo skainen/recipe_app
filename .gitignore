@@ -1,12 +1,10 @@
+# Python
 __pycache__/
 *.py[cod]
-*$py.class
-.env
-.venv
-env/
+
+# Virtual Environment
 venv/
-ENV/
-.DS_Store
-*.pyc
-.env.*
-!.env.example
+
+# Secrets and configs
+/config/*.json
+.env
